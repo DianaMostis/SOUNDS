@@ -1,22 +1,39 @@
 
-button{
-    background-color: rgb(185, 209, 224);
-    color: rgb(61, 61, 100);
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 1s;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+body {
+  background: #DBD4CD;
+  margin: 0;
+}
+
+.header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: auto;
+  background: #CAC2BB; 
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 9px #999;
+  margin: auto;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
   
-button:hover {
-   background-color: #4CAF50;
-   color: pink;
-    }
+button:hover {background-color: rgb(255, 0, 166);}
 
-
+button:active {
+    background-color: rgb(255, 0, 166);
+    box-shadow: 0 5px #686;
+    transform: translateY(4px);
+}
 
