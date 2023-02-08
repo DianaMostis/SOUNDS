@@ -1,10 +1,113 @@
 body {
-    background-color: rgb(25, 0, 255);
+    background-color: #DBD4CD;
+
+  }
+
+  
+  .wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .overlay-bg {
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+  }
+  
+    .intro {
+        font-family: Butler;
+        font-size: 120px;
+        font-weight:200; 
+        padding: 0;
+        line-height: 100%;
+    }
+
+     header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 187px;
+        margin: 0;
+        padding: 0;
+        
+     }
+
+     svg {
+        display: flex;
+        align-self:flex-start;
+     }
+
+ .menu {
+    display: flex;
+    justify-content:flex-end;
+    font-family: butler;
+    font-weight: 275px;
+    font-size: 30px;
+    width: 10%;
+    list-style: none;
+    left:0;
+    right:0;
+    z-index: 10;
+
+    
+ }
+
+ .menu a {
+    display: flex;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+	padding: 10px;
+	width:90%;
+	text-decoration: none;
+	color: #666;
+	transition: 0.3s;
+    margin-top:0px
+  }
+  
+  .menu a:hover {
+    display: flex;
+   color: rgb(184, 165, 255);
+   float: left;
+	padding: 10px;
+	width:90%;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.3s;
+    margin-top:20px;
+    
+  }
+  
+  .menu a.active {
+    color: rgb(0, 0, 0);
   }
   h1{
     display: flex;
     justify-content: center;
-    font-family:Arial, Helvetica, sans-serif; }
+    align-items: center;
+    font-family: Butler;
+    font-size: 80px;
+    font-weight:300;
+    justify-content: space-between;
+    }
+    
+    h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    }
+
 
 button{
     background-color: rgb(136, 126, 230);
@@ -59,4 +162,26 @@ p{
     justify-content: center;
     font-family:Arial, Helvetica, sans-serif;  
 }
+
+.container {
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.container2 {
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    font-family: Butler;
+    font-size: 12px;
+    font-weight:300;
+ }
+  
+
       
