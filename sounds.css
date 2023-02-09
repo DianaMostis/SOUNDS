@@ -1,187 +1,131 @@
 body {
-    background-color: #DBD4CD;
 
-  }
-
-  
-  .wrap {
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .overlay-bg {
-    opacity: 0.2;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-
-  }
-  
-    .intro {
-        font-family: Butler;
-        font-size: 120px;
-        font-weight:200; 
-        padding: 0;
-        line-height: 100%;
-    }
-
-     header {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: 187px;
-        margin: 0;
-        padding: 0;
-        
-     }
-
-     svg {
-        display: flex;
-        align-self:flex-start;
-     }
-
- .menu {
-    display: flex;
-    justify-content:flex-end;
-    font-family: butler;
-    font-weight: 275px;
-    font-size: 30px;
-    width: 10%;
-    list-style: none;
-    left:0;
-    right:0;
-    z-index: 10;
-
-    
- }
-
- .menu a {
-    display: flex;
-    float: left;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 35px;
-	padding: 10px;
-	width:90%;
-	text-decoration: none;
-	color: #666;
-	transition: 0.3s;
-    margin-top:0px
-  }
-  
-  .menu a:hover {
-    display: flex;
-   color: rgb(184, 165, 255);
-   float: left;
-	padding: 10px;
-	width:90%;
-	float: left;
-	text-decoration: none;
-	color: #fff;
-	transition: 0.3s;
-    margin-top:20px;
-    
-  }
-  
-  .menu a.active {
-    color: rgb(0, 0, 0);
-  }
-  h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Butler;
-    font-size: 80px;
-    font-weight:300;
-    justify-content: space-between;
-    }
-    
-    h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    }
-
-
-button{
-    background-color: rgb(136, 126, 230);
-    color: rgb(251, 251, 252);
-    padding: 25px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 1s;
-    cursor: pointer;
-    border-radius: 5px;
-    border-color: #ffffff;
-    box-shadow: 4px 4px rgb(255, 153, 0)
-}
-button:hover {
-    background-color: hsl(36, 100%, 50%);
-    box-shadow: 0 5px rgb(163, 159, 152);
-    transform: translateY(4px);
-     }
-button:active {
-    background-color: #e70d44;
-    transform: translateY(4px);
-    }
-    ul {
-        display: table; 
-        margin: 0 auto;
-        text-align: left;
-        list-style-type: none ;  
-  }
-li{
-    margin-top: 45px;
-}
-.text {
-    font-size: 45px;
-    color: rgb(255, 153, 0);
-    display: inline-block;
-    line-height: 2em;
-    vertical-align: middle;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    }
-
-
-   
-hr {margin-left:  25%;
-    margin-right: 22.5%;
-    margin-top: 3% }
-p{
-    display: flex;
-    justify-content: center;
-    font-family:Arial, Helvetica, sans-serif;  
+  margin: 0;
 }
 
-.container {
-    height: 740px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.intro {
+  font-family: Butler;
+  font-size: 120px;
+  font-weight: 100;
+  padding: 0;
+  line-height: 70%;
+  position: relative;
 }
-  
-.container2 {
-    height: 740px;
+
+.intro2 {
     display: flex;
     flex-direction: column;
+    font-family: Butler;
+    font-size: 120px;
+    font-weight: 100;
+    padding: 0;
+    line-height: 70%;
+  }
+
+
+.hero {
+  height: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('new.3340a84f967c58e17b6d5ac2ab732fdd.gif');
 }
 
-footer {
-    font-family: Butler;
-    font-size: 12px;
-    font-weight:300;
- }
-  
+header {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+  width: 100vw;
+  justify-items: space-between;
+}
 
-      
+svg {
+  display: flex;
+  padding: 0 25px;
+}
+
+.menu {
+  font-family: Butler;
+  font-weight: 400;
+  display: flex;
+  list-style: none;
+  justify-self: flex-end;
+}
+
+
+.menu li {
+  padding: 0;
+  margin: 0 12px;
+  list-style: none;
+  display: inline-block;
+}
+
+.menu li a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.menu a.active {
+  color: #333;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Butler;
+  font-size: 80px;
+  font-weight: 300;
+  justify-content: space-between;
+}
+
+button {
+  background-color: rgb(136, 126, 230);
+  color: rgb(251, 251, 252);
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #ffffff;
+  box-shadow: 4px 4px rgb(255, 153, 0);
+}
+
+button:hover {
+  background-color: hsl(36, 100%, 50%);
+  box-shadow: 0 5px rgb(163, 159, 152);
+  transform: translateY(4px);
+}
+
+button:active {
+  background-color: #e70d44;
+  transform: translateY(4px);
+}
+
+.text {
+  font-size: 45px;
+  color: rgb(255, 153, 0);
+  display: inline-block;
+  line-height: 2em;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+
+footer {
+  font-family: Butler;
+  font-size: 12px;
+  font-weight: 300;
+}
