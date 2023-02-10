@@ -1,67 +1,216 @@
-body {
-    background-color: rgba(255, 0, 225, 0.385);
+
+
+ body {
+    margin: 0;
+    background-color: #ECAE7D ;
+    font-family: Butler;
   }
-  h1{
+
+    svg {
+        display: flex;
+        padding: 0 25px;
+        color: white;
+      }
+
+  
+  .intro {
+    font-family: Butler;
+    font-size: 70px;
+    font-weight: 200;
+    padding: 0;
+    line-height: 160%;
+    color: #E83119;
+    position: relative;
+    text-shadow: 2px 2px #fceded;
+  }
+  
+  .intro2 {
+      display: flex;
+      flex-direction: column;
+      font-family: Butler;
+      font-size: 40px;
+      font-weight: 100;
+      padding: 0;
+      line-height: 150%;
+    }
+  
+    .demo-bg {
+        opacity: 0.15;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+      }
+
+  
+  .hero {
+    height: 740px;
     display: flex;
     justify-content: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color: chartreuse;
- }
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    width: 100vw;
+    justify-items: space-between;
+    overflow: hidden;
+    position: relative;
 
-button{
-    background-color: rgb(136, 126, 230);
-    color: rgb(251, 251, 252);
+  }
+  
+  .logo {
+    display: flex;
+    padding: 0 70px;
+  }
+  
+  .menu {
+    font-family: Butler;
+    font-weight: 400;
+    font-size: 35px;
+    display: flex;
+    list-style: none;
+    padding-left: 900px;
+  }
+  
+  
+  .menu li {
+    padding: 0;
+    margin: 0 12px;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .menu li a {
+    color: #007082;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    color: #ED6335;
+  }
+
+  .menu a.active {
+    color: #333;
+  }
+
+
+  .sub-container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+  .sub-container2 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .sub-container3 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .sub-container4 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  .sub-container5 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  button {
+    background-color: #8DB5AC;
+    color: white;
     padding: 25px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 25px;
     margin: 4px 2px;
     transition-duration: 1s;
     cursor: pointer;
-    border-radius: 5px;
-    border-color: #ffffff;
-    box-shadow: 4px 4px rgb(255, 153, 0)
+    border-radius: 40px;
+    border-color: #FFFFFF;
+    box-shadow: 4px 4px rgb(255, 153, 0);
+    font-family: butler;
 }
 button:hover {
-    background-color: hsl(36, 100%, 50%);
-    box-shadow: 0 5px rgb(163, 159, 152);
+    background-color: hsl(29, 93%, 49%);
+    box-shadow: 0 5px rgb(95, 74, 39);
     transform: translateY(4px);
      }
 button:active {
-    background-color: #e70d44;
+    background-color: #2F225C;
     transform: translateY(4px);
     }
-    ul {
-        display: table; 
-        margin: 0 auto;
-        text-align: left;
-        list-style-type: none ;  
+.button-container {
+justify-content: center;
+flex-direction: column;
+display: flex;
+margin: 0 auto;
+text-align: left;
+list-style-type: none;
+align-items: center;
   }
 li{
     margin-top: 45px;
 }
 .text {
     font-size: 45px;
-    color: rgb(255, 153, 0);
+    color: #007082;
     display: inline-block;
     line-height: 2em;
     vertical-align: middle;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 800;
+    font-family: butler;
+    font-weight: 400;
     }
 
-
-   
 hr {margin-left:  25%;
     margin-right: 22.5%;
     margin-top: 3% }
 p{
     display: flex;
     justify-content: center;
-    font-family:Arial, Helvetica, sans-serif;  
-   color: sienna;
+    font-family: Butler;
+    font-weight: 100;
 }
 
-
- 
+footer {
+    display: flex;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    font-family: Butler;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: #e79e64;
+    color: white; 
+}
+  
+    .logo2 {
+    display: flex;
+    color: white;
+    height: 30px;
+    width: 30px;
+  }
+  .container2 {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
